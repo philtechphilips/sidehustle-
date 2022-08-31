@@ -1,0 +1,135 @@
+.header{
+    padding-top: 30px;
+    background-color: var(--black);
+    height: 100%;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    max-width: 100%;
+}
+.ad{
+    background-color: var(--secondary);
+    margin: 0 0 70px 0;
+    text-align: center;
+    padding: 5px 0 5px 0;
+}
+.ad p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.header .container{
+    padding: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    margin: auto;
+}
+
+.header .left{
+    margin-left: 30px;
+}
+
+.header .left h1{
+    font-size: 4rem;
+    color: #fff;
+    line-height: 60px;
+}
+
+.header .left p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 30px 0;
+    
+}
+.header .right p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: -60px;
+}
+.header .right{
+    text-align: end;
+    
+}
+.header .right img{
+    width: 50rem;
+margin-right: -40px;
+}
+.dot{
+    height: 8px;
+    width: 8px;
+    background-color: var(--primary);
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+.bottom-image{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.mobile-bottom-image{
+    display: none;
+}
+@media screen and (max-width: 1040px) {
+    .ad{
+        padding: 5px 15 5px 15;
+    }
+    .ad p{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .header .container{
+        padding: 1.5rem;
+        grid-template-columns: 1fr;
+    }
+    .header .left{
+        margin: 30px 0;
+        text-align: center;
+    }
+    
+    .header .left h1{
+        font-size: 3.5rem;
+        color: #fff;
+        line-height: 60px;
+    }
+    
+    .header .left p{
+        color: #fff;
+        font-size: 20px;
+        font-weight: 400;
+        margin: 30px 0;
+        
+    }
+    .header .right p{
+        color: #fff;
+        font-size: 18px;
+        font-weight: 400;
+        margin-left: 0px;
+    }
+    .header .right{
+        text-align: center;
+        
+    }
+    .header .right img{
+        width: 35rem;
+    margin-right: 0px;
+    }
+    .bottom-image{
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    .header .right img{
+        width: 25rem;
+    margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .header .right img{
+        width: 20rem;
+    margin-right: 0px;
+    }
+}

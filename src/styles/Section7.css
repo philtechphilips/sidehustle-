@@ -1,0 +1,12 @@
+.container .ready{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+}
+.container .ready{
+    margin-top: -10px;
+}
+.container .ready button{
+    text-align: center;
+    margin-bottom: 70px;
+}

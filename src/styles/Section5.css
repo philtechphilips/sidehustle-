@@ -1,0 +1,16 @@
+.section5 h2{
+text-align: center;
+margin-bottom: 50px;
+}
+
+.marquee img{
+margin-right: 150px;
+margin-bottom: 50px;
+}
+
+@media screen and (max-width: 500) {
+    .marquee img{
+        margin-right: 100px;
+        width: 20px;
+    }
+}

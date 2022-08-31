@@ -1,0 +1,186 @@
+.section-3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 70px;
+}
+.section-3 .content-right{
+    margin-right: 150px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.section-3 .content-right h1{
+    font-size: 50px;
+    font-weight: 800;
+    padding-right: 40px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+.section-3 .content-right p{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--black);
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+.disclose .perks{
+    width: 500px;
+    background-color: #fcfcfc;
+    padding: 8px 25px 8px 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    border: 1.5px solid #efefef;
+    border-radius: 5px;
+}
+.disclose .active{
+    width: 500px;
+    background-color: var(--secondary);
+    padding: 8px 25px 8px 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    border: 1.5px solid #efefef;
+    border-radius: 5px 5px 0px 0;
+    color: var(--primary);
+}
+.disclose{
+    border: 1.5px solid #efefef;
+    border-radius: 5px 5px 0px 0;;
+    margin-bottom: 40px;
+}
+.disclose-info{
+    margin-left: 28px;
+    display: none;
+}
+.disclose-info-active{
+    margin-left: 28px;
+}
+.disclose-info-active ul{
+    list-style: disc; 
+}
+.disclose-info ul{
+    /* list-style-type: disc; */
+    list-style: disc;
+}
+.disclose-info-active li{
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.disclose-info li{
+font-size: 18px;
+font-weight: 500;
+padding-bottom: 10px;
+}
+@media screen and (max-width: 1240px) {
+    .section-3{
+        grid-template-columns: 1fr;
+    }
+    .section-3 .content-right {
+        text-align: left;
+    }
+    .section-3 .content-left img{
+        width: 900px;
+    }
+    .disclose .perks{
+        width: 100%;
+        background-color: #fcfcfc;
+        padding: 8px 25px 8px 10px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 17px;
+        border: 1.5px solid #efefef;
+        border-radius: 5px;
+    }
+    .section-3 .content-right{
+        margin-right: 100px;
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+    .section-3 .content-right h1{
+        font-size: 50px;
+        font-weight: 800;
+        padding-right: 0px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+    .section-3 .content-right p{
+        font-size: 18px;
+        font-weight: 600;
+        color: var(--black);
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .section-3 .content-left img{
+        width: 780px;
+    }
+}
+@media screen and (max-width: 780px) {
+    .section-3 .content-left img{
+        width: 650px;
+    }
+    .section-3 .content-right{
+        margin-right: 50;
+        margin-left: 50;
+        margin-top: 100px;
+    }
+    .section-3 .content-right h1{
+        font-size: 50px;
+        font-weight: 800;
+        padding-right: 0px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+    .section-3 .content-right p{
+        font-size: 18px;
+        font-weight: 600;
+        color: var(--black);
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+    .section-3 .content-right .perks{
+        width: 100%;
+    }
+
+    .section-3 .content-right .active{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 620px) {
+    .section-3 .content-left img{
+        width: 470px;
+    }
+    .section-3 .content-right{
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 70px;
+    }
+    .section-3 .content-right .perks{
+        width: 100%;
+    }
+
+    .section-3 .content-right .active{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 470px) {
+    .section-3 .content-left img{
+        width: 340px;
+    }
+    .section-3 .content-right{
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 60px;
+    }
+    .section-3 .content-right .perks{
+        width: 100%;
+    }
+
+    .section-3 .content-right .active{
+        width: 100%;
+    }
+    
+}

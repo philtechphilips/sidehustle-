@@ -1,13 +1,56 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500;600;700&display=swap');
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --primary: #52a350;
+  --secondary: #bbddbb;
+  --black: #1A1F1A; 
+}
+body {
+  font-family: "Darker Grotesque";
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+ul{
+  list-style-type: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a{
+  text-decoration: none;
+  color: #fff;
 }
+
+.container{
+  max-width: 1240px;
+  margin: auto;
+}
+
+.btn-light{
+  padding: 12px 50px 12px 50px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1px solid var(--primary);
+  color: #fff;
+  font-size: 14px;
+}
+.btn-light:hover{
+  background-color: var(--primary);
+}
+.btn-dark{
+  padding: 12px 35px 12px 35px;
+  border-radius: 5px;
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+  color: #fff;
+  font-size: 14px;
+}
+.btn-dark:hover{
+  background-color: var(--secondary);
+  color: var(--primary);
+}
+
+

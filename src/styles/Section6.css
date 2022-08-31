@@ -1,0 +1,77 @@
+.intership{
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ margin-bottom: 30px;
+ margin-left: 50px;
+}
+
+.card{
+border: solid 1px #efefef;
+width: 350px;
+border-radius: 20px;
+padding-bottom: 30px;
+padding-right: 30px;
+margin-bottom: 30px;
+}
+
+.card h1{
+    padding-left: 25px;
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.card p{
+    padding-left: 25px;
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.card .intern{
+width: 350px;
+}
+
+@media screen and (max-width: 1040px) {
+    .intership{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card{
+        width: 250px;
+        padding-right: 10px;
+        margin-right: -30px;
+    }
+    .card .intern{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .intership{
+        grid-template-columns:  1fr;
+    }
+    .card{
+        width: 300px;
+        padding-right: 10px;
+        margin-right: -30px;
+    }
+    .card .intern{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .intership{
+        grid-template-columns:  1fr;
+    }
+    .card{
+        width: 300px;
+        padding-right: 10px;
+        margin-right: 0px;
+        margin-left: -15px;
+    }
+    .card .intern{
+        width: 300px;
+    }
+}
